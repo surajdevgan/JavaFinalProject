@@ -1,6 +1,11 @@
 
 public class BankAccount {
 	
+	
+	// this is the model class for bank customers
+	
+
+	
 	protected int id;
 	protected String name;
 	@Override
