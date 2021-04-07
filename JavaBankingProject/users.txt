@@ -1,0 +1,10 @@
+1234,surjjj dsdss,sdsds,200.0,23
+123456,snopp dogg,kbc,1000.0,28
+1111,suraj devgan,savings,400.0,23
+3345,dwdw wew,savings,50000.0,45
+45445,suraj ssdsd,savings,600.0,56
+34567,Suraj Devgan,savings,1000.0,24
+434,scs sdsd,savings,2334.0,23
+232,dwd wds,savings,3000.0,32
+4532,John Dev,current,3000.0,28
+7890,John Wick,savings,1950.0,29
