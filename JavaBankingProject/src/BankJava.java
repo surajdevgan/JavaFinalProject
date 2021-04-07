@@ -5,13 +5,16 @@ public class BankJava {
 
 	public static void main(String[] args) throws IOException {
 		Scanner sc=new Scanner(System.in);
-		ArrayList<BankAccount> userList=new ArrayList<>();
-		ArrayList<BankAccount> payee=new ArrayList<>();
+		
+		ArrayList<BankAccount> userList=new ArrayList<>(); // In this array list we will append all registered customers
+		ArrayList<BankAccount> payee=new ArrayList<>(); // this list will contains all required payee
 		
 		int choice = 0;
 		
 		do {
 			
+			
+			// This is the Main Menu of our banking application
 			System.out.println("***Welcome To T.D Bank***\n        *****");
 			System.out.println("0.Exit.");
 			System.out.println("1.To create an account.\n2.Display Account Details.\n3.Deposit Money\n4.Withdraw Money\n5.Transfer money to other accounts within the bank\n6.Pay utility bills");
@@ -87,6 +90,8 @@ public class BankJava {
 		
 
 	}
+	
+	
 	//method to create a new account
 	public static void createNewAccount(ArrayList<BankAccount> userList) throws IOException {
 		
@@ -133,7 +138,7 @@ public class BankJava {
 		
 		accountId = sc.nextInt();
 		
-		
+		// this loop will add all the customers to the userList
 		while((line=br.readLine())!=null) {
 			String fields[]=line.split(",");
 			int id=Integer.parseInt(fields[0]);
@@ -184,7 +189,7 @@ public class BankJava {
 		
 		accountId = sc.nextInt();
 		
-		
+		// this loop will get the desired payee
 		while((line=br.readLine())!=null) {
 			String fields[]=line.split(",");
 			int id=Integer.parseInt(fields[0]);
